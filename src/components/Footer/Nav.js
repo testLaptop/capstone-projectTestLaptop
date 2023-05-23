@@ -1,49 +1,51 @@
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <nav>
       <ul>
-        <li>Doormat Navigation</li>
+        <li>Doormat Nav</li>
         <li>
-          <Link>Home</Link>
+          <a>Home</a>
         </li>
         <li>
-          <Link>About</Link>
+          <a>About</a>
         </li>
         <li>
-          <Link>Menu</Link>
+          <a>Menu</a>
         </li>
         <li>
-          <Link>Rezervations</Link>
+          <a>Rezervations</a>
         </li>
         <li>
-          <Link>Order Online</Link>
+          <a>Order Online</a>
         </li>
         <li>
-          <Link>Login</Link>
+          <a>Login</a>
         </li>
       </ul>
       <ul>
         <li>Contact</li>
         <li>
-          <Link>Address</Link>
+          <a>Address</a>
         </li>
         <li>
-          <Link>Phone Number</Link>
+          <a>Phone Number</a>
         </li>
         <li>
-          <Link>Email</Link>
+          <a>Email</a>
         </li>
       </ul>
       <ul>
         <li>Socail Media Links</li>
         <li>
-          <Link>Facebook</Link>
+          <a>Facebook</a>
         </li>
         <li>
-          <Link>Instagram</Link>
+          <a>Instagram</a>
         </li>
         <li>
-          <Link>GitHub</Link>
+          <a>GitHub</a>
         </li>
       </ul>
     </nav>

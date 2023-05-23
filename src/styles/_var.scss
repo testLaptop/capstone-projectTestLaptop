@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+//colors
+$green: #495e57;
+$yellow: #f4ce14;
+$red: #ee9972;
+$meatCol: #fbdabb;
+$smokeWhite: #edefee;
+$smokeBlack: #333333;
+
+//320=899 sizes
+$sPh_55-95: clamp(
+  3.44rem,
+  calc(2.06rem + 6.91vw),
+  5.94rem
+); //this is not for font
+//This is for sizes 320-899 px width
+$sPh_48-119: clamp(3rem, calc(0.55rem + 12.26vw), 7.44rem);
+$sPh_40-99: clamp(2.5rem, calc(0.46rem + 10.19vw), 6.19rem);
+$sPh_33-82: clamp(2.06rem, calc(0.37rem + 8.45vw), 5.13rem);
+$sPh_28-68: clamp(1.75rem, calc(0.37rem + 6.9vw), 4.25rem);
+$sPh_19-48: clamp(1.19rem, calc(0.19rem + 5vw), 3rem);
+$sPh_16-40: clamp(1rem, calc(0.17rem + 4.14vw), 2.5rem);
+$sPh_13-33: clamp(0.81rem, calc(0.12rem + 3.45vw), 2.06rem);
+//This is for sizes 900-1199 px width
+//This is for sizes 1200-1799 px width
+//This is for sizes 900-2560 px width duhet per 1800 >
+$sTab_19-57px: clamp(1.19rem, calc(-0.1rem + 2.29vw), 3.56rem);
+$sTab_48-143px: clamp(3rem, calc(-0.22rem + 5.72vw), 8.94rem);
+$sTab_40-119px: clamp(2.5rem, calc(-0.18rem + 4.76vw), 7.44rem);
+$sTab_16-48px: clamp(1rem, calc(-0.08rem + 1.93vw), 3rem);
+$sTab_13-40px: clamp(0.81rem, calc(-0.1rem + 1.63vw), 2.5rem);
+$sTab_28-83px: clamp(1.75rem, calc(-0.11rem + 3.31vw), 5.19rem);
+$sTab_33-99px: clamp(2.06rem, calc(-0.17rem + 3.98vw), 6.19rem);
+$sTabOnce_13-33px: clamp(0.81rem, calc(0.13rem + 1.2vw), 2.06rem);
+//FontFamily
+$markazi: "Markazi Text", serif;
+$karla: "Karla", sans-serif;
